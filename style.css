@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+:root{
+--Softblue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Cyan2: hsl(178, 100%, 50%,0.4);
+--Verydarkblue1: hsl(217, 54%, 11%);
+--Verydarkblue2: hsl(216, 50%, 16%);
+--Verydarkblue3: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+html{
+font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: var(--Verydarkblue1);
+}
+.contenedor{
+    width: 328px;
+    height: 544px;
+    margin: 81px auto;
+    padding: 29px 26px;
+    border-radius: 10px;
+    background-color: var(--Verydarkblue2);
+}
+
+.conten{
+    width: 274px;
+    height: 274px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.conten:hover{
+    background-color: var(--Cyan2);
+    background-image: url(./images/icon-view.svg);
+    background-repeat:no-repeat;
+    background-size: 20%;
+    background-position: center;
+}
+
+.conten svg{
+    margin: auto auto;
+}
+.contenedor_image{
+    width: 274px;
+    height: 274px;
+    border-radius: 10px;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor_image .conten:hover{
+width: 100%;
+height: 100%;
+}
+
+
+.contenedor_info{
+    padding-top: 25px;
+}
+.contenedor_info h1{
+    font-size: 22px;
+    color:var(--White);
+}
+
+.contenedor_info h1:hover{
+    color: var(--Cyan);
+}
+
+.contenedor_info p{
+    color:var(--Softblue);
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.contenedor_info h4{
+    color: var(--Cyan);
+}
+
+.contenedor_2{
+padding-top: 15px;
+padding-bottom: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 2px;
+}
+
+.contenedor_4{
+    padding-left: 90px;
+}
+
+.contenedor_3{
+    padding-right: 5px;
+}
+
+.contenedor_5{
+    padding-left: 5px;
+    color: var(--Softblue);
+    font-size: 13px;
+
+}
+
+.contenedor_final{
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid var(--Verydarkblue3);
+}
+
+.contenedor_final img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid beige;
+}
+
+.contenedor_final p{
+    padding-left: 15px;
+}
+
+.contenedor_final .uno{
+    color: var(--Softblue);
+}
+
+.contenedor_final .dos{
+    padding-left:5px;
+    color: var(--White);
+}
+.contenedor_final .dos:hover{
+    color: var(--Cyan);
+}
+
